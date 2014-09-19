@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709967FB19CC474D00010EFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 709967FA19CC474D00010EFC /* main.m */; };
+		709967FE19CC474D00010EFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 709967FD19CC474D00010EFC /* AppDelegate.m */; };
+		7099680019CC474D00010EFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 709967FF19CC474D00010EFC /* Images.xcassets */; };
+		7099680319CC474D00010EFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7099680119CC474D00010EFC /* MainMenu.xib */; };
+		7099680F19CC474D00010EFC /* RetinaConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7099680E19CC474D00010EFC /* RetinaConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7099680919CC474D00010EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 709967ED19CC474C00010EFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709967F419CC474C00010EFC;
+			remoteInfo = RetinaConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		709967F519CC474C00010EFC /* RetinaConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetinaConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		709967F919CC474D00010EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709967FA19CC474D00010EFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		709967FC19CC474D00010EFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		709967FD19CC474D00010EFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		709967FF19CC474D00010EFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7099680219CC474D00010EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7099680819CC474D00010EFC /* RetinaConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetinaConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7099680D19CC474D00010EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7099680E19CC474D00010EFC /* RetinaConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetinaConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		709967F219CC474C00010EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099680519CC474D00010EFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		709967EC19CC474C00010EFC = {
+			isa = PBXGroup;
+			children = (
+				709967F719CC474C00010EFC /* RetinaConverter */,
+				7099680B19CC474D00010EFC /* RetinaConverterTests */,
+				709967F619CC474C00010EFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		709967F619CC474C00010EFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				709967F519CC474C00010EFC /* RetinaConverter.app */,
+				7099680819CC474D00010EFC /* RetinaConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		709967F719CC474C00010EFC /* RetinaConverter */ = {
+			isa = PBXGroup;
+			children = (
+				709967FC19CC474D00010EFC /* AppDelegate.h */,
+				709967FD19CC474D00010EFC /* AppDelegate.m */,
+				709967FF19CC474D00010EFC /* Images.xcassets */,
+				7099680119CC474D00010EFC /* MainMenu.xib */,
+				709967F819CC474D00010EFC /* Supporting Files */,
+			);
+			path = RetinaConverter;
+			sourceTree = "<group>";
+		};
+		709967F819CC474D00010EFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				709967F919CC474D00010EFC /* Info.plist */,
+				709967FA19CC474D00010EFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7099680B19CC474D00010EFC /* RetinaConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7099680E19CC474D00010EFC /* RetinaConverterTests.m */,
+				7099680C19CC474D00010EFC /* Supporting Files */,
+			);
+			path = RetinaConverterTests;
+			sourceTree = "<group>";
+		};
+		7099680C19CC474D00010EFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7099680D19CC474D00010EFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		709967F419CC474C00010EFC /* RetinaConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7099681219CC474D00010EFC /* Build configuration list for PBXNativeTarget "RetinaConverter" */;
+			buildPhases = (
+				709967F119CC474C00010EFC /* Sources */,
+				709967F219CC474C00010EFC /* Frameworks */,
+				709967F319CC474C00010EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetinaConverter;
+			productName = RetinaConverter;
+			productReference = 709967F519CC474C00010EFC /* RetinaConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7099680719CC474D00010EFC /* RetinaConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7099681519CC474D00010EFC /* Build configuration list for PBXNativeTarget "RetinaConverterTests" */;
+			buildPhases = (
+				7099680419CC474D00010EFC /* Sources */,
+				7099680519CC474D00010EFC /* Frameworks */,
+				7099680619CC474D00010EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7099680A19CC474D00010EFC /* PBXTargetDependency */,
+			);
+			name = RetinaConverterTests;
+			productName = RetinaConverterTests;
+			productReference = 7099680819CC474D00010EFC /* RetinaConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		709967ED19CC474C00010EFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Nestline;
+				TargetAttributes = {
+					709967F419CC474C00010EFC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					7099680719CC474D00010EFC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 709967F419CC474C00010EFC;
+					};
+				};
+			};
+			buildConfigurationList = 709967F019CC474C00010EFC /* Build configuration list for PBXProject "RetinaConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 709967EC19CC474C00010EFC;
+			productRefGroup = 709967F619CC474C00010EFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709967F419CC474C00010EFC /* RetinaConverter */,
+				7099680719CC474D00010EFC /* RetinaConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		709967F319CC474C00010EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7099680019CC474D00010EFC /* Images.xcassets in Resources */,
+				7099680319CC474D00010EFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099680619CC474D00010EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		709967F119CC474C00010EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709967FE19CC474D00010EFC /* AppDelegate.m in Sources */,
+				709967FB19CC474D00010EFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7099680419CC474D00010EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7099680F19CC474D00010EFC /* RetinaConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7099680A19CC474D00010EFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 709967F419CC474C00010EFC /* RetinaConverter */;
+			targetProxy = 7099680919CC474D00010EFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7099680119CC474D00010EFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7099680219CC474D00010EFC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7099681019CC474D00010EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7099681119CC474D00010EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7099681319CC474D00010EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetinaConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7099681419CC474D00010EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RetinaConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7099681619CC474D00010EFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetinaConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetinaConverter.app/Contents/MacOS/RetinaConverter";
+			};
+			name = Debug;
+		};
+		7099681719CC474D00010EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetinaConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetinaConverter.app/Contents/MacOS/RetinaConverter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		709967F019CC474C00010EFC /* Build configuration list for PBXProject "RetinaConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099681019CC474D00010EFC /* Debug */,
+				7099681119CC474D00010EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7099681219CC474D00010EFC /* Build configuration list for PBXNativeTarget "RetinaConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099681319CC474D00010EFC /* Debug */,
+				7099681419CC474D00010EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7099681519CC474D00010EFC /* Build configuration list for PBXNativeTarget "RetinaConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099681619CC474D00010EFC /* Debug */,
+				7099681719CC474D00010EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 709967ED19CC474C00010EFC /* Project object */;
+}
